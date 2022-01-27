@@ -1,7 +1,7 @@
 from telegram.ext import Updater,MessageHandler,CommandHandler,Filters
 from googletrans import Translator
 
-updater = Updater('BOT TOKEN',use_context = True )
+updater = Updater('5163195332:AAFe3nV2dcaVIGjH7MyXRjldpeg5OEf7bnc',use_context = True )
 
 def start(updater,context):
   user = updater.message.from_user
